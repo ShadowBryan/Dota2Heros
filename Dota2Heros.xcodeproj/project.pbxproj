@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048A18771BFC688000D55065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A18761BFC688000D55065 /* main.m */; };
+		048A187A1BFC688000D55065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A18791BFC688000D55065 /* AppDelegate.m */; };
+		048A18801BFC688000D55065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A187E1BFC688000D55065 /* Main.storyboard */; };
+		048A18821BFC688000D55065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048A18811BFC688000D55065 /* Assets.xcassets */; };
+		048A18851BFC688000D55065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A18831BFC688000D55065 /* LaunchScreen.storyboard */; };
+		048A18901BFC688100D55065 /* Dota2HerosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A188F1BFC688100D55065 /* Dota2HerosTests.m */; };
+		048A189B1BFC688100D55065 /* Dota2HerosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A189A1BFC688100D55065 /* Dota2HerosUITests.m */; };
+		048A18AA1BFC695D00D55065 /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A18A91BFC695D00D55065 /* MasterTableViewController.m */; };
+		048A18D11BFC873600D55065 /* HeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A18D01BFC873600D55065 /* HeroTableViewCell.m */; };
+		04C3D6831C04DEB100EFE97D /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3D6821C04DEB100EFE97D /* DetailTableViewController.m */; };
+		04C3D6891C04DFE500EFE97D /* BioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3D6881C04DFE500EFE97D /* BioCell.m */; };
+		04C3D68C1C04E01500EFE97D /* AbilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3D68B1C04E01500EFE97D /* AbilityCell.m */; };
+		1D14CA6BA96C73170BE366F4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7D6F06B2A09214AFF7F75E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048A188C1BFC688100D55065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048A186A1BFC688000D55065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048A18711BFC688000D55065;
+			remoteInfo = Dota2Heros;
+		};
+		048A18971BFC688100D55065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048A186A1BFC688000D55065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048A18711BFC688000D55065;
+			remoteInfo = Dota2Heros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048A18721BFC688000D55065 /* Dota2Heros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota2Heros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048A18761BFC688000D55065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048A18781BFC688000D55065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048A18791BFC688000D55065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048A187F1BFC688000D55065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048A18811BFC688000D55065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048A18841BFC688000D55065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048A18861BFC688000D55065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A188B1BFC688100D55065 /* Dota2HerosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dota2HerosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048A188F1BFC688100D55065 /* Dota2HerosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota2HerosTests.m; sourceTree = "<group>"; };
+		048A18911BFC688100D55065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A18961BFC688100D55065 /* Dota2HerosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dota2HerosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048A189A1BFC688100D55065 /* Dota2HerosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota2HerosUITests.m; sourceTree = "<group>"; };
+		048A189C1BFC688100D55065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A18A81BFC695D00D55065 /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		048A18A91BFC695D00D55065 /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		048A18CF1BFC873600D55065 /* HeroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCell.h; sourceTree = "<group>"; };
+		048A18D01BFC873600D55065 /* HeroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewCell.m; sourceTree = "<group>"; };
+		04C3D6811C04DEB100EFE97D /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		04C3D6821C04DEB100EFE97D /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		04C3D6871C04DFE500EFE97D /* BioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BioCell.h; sourceTree = "<group>"; };
+		04C3D6881C04DFE500EFE97D /* BioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BioCell.m; sourceTree = "<group>"; };
+		04C3D68A1C04E01500EFE97D /* AbilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbilityCell.h; sourceTree = "<group>"; };
+		04C3D68B1C04E01500EFE97D /* AbilityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbilityCell.m; sourceTree = "<group>"; };
+		4D7D6F06B2A09214AFF7F75E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		744D5D24524E07FE09D3A3B7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		877B4344CFFF8BE9EB2633B7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048A186F1BFC688000D55065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D14CA6BA96C73170BE366F4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048A18881BFC688100D55065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048A18931BFC688100D55065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048A18691BFC688000D55065 = {
+			isa = PBXGroup;
+			children = (
+				048A18741BFC688000D55065 /* Dota2Heros */,
+				048A188E1BFC688100D55065 /* Dota2HerosTests */,
+				048A18991BFC688100D55065 /* Dota2HerosUITests */,
+				048A18731BFC688000D55065 /* Products */,
+				9A89B9D2353D5B4990BCD023 /* Pods */,
+				0D3ADAC51CFB50FF4F111655 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048A18731BFC688000D55065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048A18721BFC688000D55065 /* Dota2Heros.app */,
+				048A188B1BFC688100D55065 /* Dota2HerosTests.xctest */,
+				048A18961BFC688100D55065 /* Dota2HerosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048A18741BFC688000D55065 /* Dota2Heros */ = {
+			isa = PBXGroup;
+			children = (
+				048A18781BFC688000D55065 /* AppDelegate.h */,
+				048A18791BFC688000D55065 /* AppDelegate.m */,
+				048A18A81BFC695D00D55065 /* MasterTableViewController.h */,
+				048A18A91BFC695D00D55065 /* MasterTableViewController.m */,
+				04C3D6811C04DEB100EFE97D /* DetailTableViewController.h */,
+				04C3D6821C04DEB100EFE97D /* DetailTableViewController.m */,
+				048A18CF1BFC873600D55065 /* HeroTableViewCell.h */,
+				048A18D01BFC873600D55065 /* HeroTableViewCell.m */,
+				04C3D6871C04DFE500EFE97D /* BioCell.h */,
+				04C3D6881C04DFE500EFE97D /* BioCell.m */,
+				04C3D68A1C04E01500EFE97D /* AbilityCell.h */,
+				04C3D68B1C04E01500EFE97D /* AbilityCell.m */,
+				048A187E1BFC688000D55065 /* Main.storyboard */,
+				048A18811BFC688000D55065 /* Assets.xcassets */,
+				048A18831BFC688000D55065 /* LaunchScreen.storyboard */,
+				048A18861BFC688000D55065 /* Info.plist */,
+				048A18751BFC688000D55065 /* Supporting Files */,
+			);
+			path = Dota2Heros;
+			sourceTree = "<group>";
+		};
+		048A18751BFC688000D55065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048A18761BFC688000D55065 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048A188E1BFC688100D55065 /* Dota2HerosTests */ = {
+			isa = PBXGroup;
+			children = (
+				048A188F1BFC688100D55065 /* Dota2HerosTests.m */,
+				048A18911BFC688100D55065 /* Info.plist */,
+			);
+			path = Dota2HerosTests;
+			sourceTree = "<group>";
+		};
+		048A18991BFC688100D55065 /* Dota2HerosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048A189A1BFC688100D55065 /* Dota2HerosUITests.m */,
+				048A189C1BFC688100D55065 /* Info.plist */,
+			);
+			path = Dota2HerosUITests;
+			sourceTree = "<group>";
+		};
+		0D3ADAC51CFB50FF4F111655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D6F06B2A09214AFF7F75E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A89B9D2353D5B4990BCD023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				877B4344CFFF8BE9EB2633B7 /* Pods.debug.xcconfig */,
+				744D5D24524E07FE09D3A3B7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048A18711BFC688000D55065 /* Dota2Heros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048A189F1BFC688100D55065 /* Build configuration list for PBXNativeTarget "Dota2Heros" */;
+			buildPhases = (
+				AF612712BBB70B3B7486A761 /* Check Pods Manifest.lock */,
+				048A186E1BFC688000D55065 /* Sources */,
+				048A186F1BFC688000D55065 /* Frameworks */,
+				048A18701BFC688000D55065 /* Resources */,
+				337EB567B149DA3DE062637E /* Embed Pods Frameworks */,
+				6C7C072C0387934FF555D416 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dota2Heros;
+			productName = Dota2Heros;
+			productReference = 048A18721BFC688000D55065 /* Dota2Heros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048A188A1BFC688100D55065 /* Dota2HerosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048A18A21BFC688100D55065 /* Build configuration list for PBXNativeTarget "Dota2HerosTests" */;
+			buildPhases = (
+				048A18871BFC688100D55065 /* Sources */,
+				048A18881BFC688100D55065 /* Frameworks */,
+				048A18891BFC688100D55065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048A188D1BFC688100D55065 /* PBXTargetDependency */,
+			);
+			name = Dota2HerosTests;
+			productName = Dota2HerosTests;
+			productReference = 048A188B1BFC688100D55065 /* Dota2HerosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048A18951BFC688100D55065 /* Dota2HerosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048A18A51BFC688100D55065 /* Build configuration list for PBXNativeTarget "Dota2HerosUITests" */;
+			buildPhases = (
+				048A18921BFC688100D55065 /* Sources */,
+				048A18931BFC688100D55065 /* Frameworks */,
+				048A18941BFC688100D55065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048A18981BFC688100D55065 /* PBXTargetDependency */,
+			);
+			name = Dota2HerosUITests;
+			productName = Dota2HerosUITests;
+			productReference = 048A18961BFC688100D55065 /* Dota2HerosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048A186A1BFC688000D55065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hanuman Tech Ltd.";
+				TargetAttributes = {
+					048A18711BFC688000D55065 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7YQE83H5H2;
+					};
+					048A188A1BFC688100D55065 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 048A18711BFC688000D55065;
+					};
+					048A18951BFC688100D55065 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 048A18711BFC688000D55065;
+					};
+				};
+			};
+			buildConfigurationList = 048A186D1BFC688000D55065 /* Build configuration list for PBXProject "Dota2Heros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048A18691BFC688000D55065;
+			productRefGroup = 048A18731BFC688000D55065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048A18711BFC688000D55065 /* Dota2Heros */,
+				048A188A1BFC688100D55065 /* Dota2HerosTests */,
+				048A18951BFC688100D55065 /* Dota2HerosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048A18701BFC688000D55065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048A18851BFC688000D55065 /* LaunchScreen.storyboard in Resources */,
+				048A18821BFC688000D55065 /* Assets.xcassets in Resources */,
+				048A18801BFC688000D55065 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048A18891BFC688100D55065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048A18941BFC688100D55065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		337EB567B149DA3DE062637E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7C072C0387934FF555D416 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF612712BBB70B3B7486A761 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048A186E1BFC688000D55065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3D6831C04DEB100EFE97D /* DetailTableViewController.m in Sources */,
+				04C3D6891C04DFE500EFE97D /* BioCell.m in Sources */,
+				04C3D68C1C04E01500EFE97D /* AbilityCell.m in Sources */,
+				048A187A1BFC688000D55065 /* AppDelegate.m in Sources */,
+				048A18771BFC688000D55065 /* main.m in Sources */,
+				048A18AA1BFC695D00D55065 /* MasterTableViewController.m in Sources */,
+				048A18D11BFC873600D55065 /* HeroTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048A18871BFC688100D55065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048A18901BFC688100D55065 /* Dota2HerosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048A18921BFC688100D55065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048A189B1BFC688100D55065 /* Dota2HerosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048A188D1BFC688100D55065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048A18711BFC688000D55065 /* Dota2Heros */;
+			targetProxy = 048A188C1BFC688100D55065 /* PBXContainerItemProxy */;
+		};
+		048A18981BFC688100D55065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048A18711BFC688000D55065 /* Dota2Heros */;
+			targetProxy = 048A18971BFC688100D55065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048A187E1BFC688000D55065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048A187F1BFC688000D55065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048A18831BFC688000D55065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048A18841BFC688000D55065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048A189D1BFC688100D55065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048A189E1BFC688100D55065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048A18A01BFC688100D55065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877B4344CFFF8BE9EB2633B7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dota2Heros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-hanuman.Dota2Heros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048A18A11BFC688100D55065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744D5D24524E07FE09D3A3B7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dota2Heros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-hanuman.Dota2Heros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048A18A31BFC688100D55065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dota2HerosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-hanuman.Dota2HerosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota2Heros.app/Dota2Heros";
+			};
+			name = Debug;
+		};
+		048A18A41BFC688100D55065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dota2HerosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-hanuman.Dota2HerosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dota2Heros.app/Dota2Heros";
+			};
+			name = Release;
+		};
+		048A18A61BFC688100D55065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Dota2HerosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-hanuman.Dota2HerosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dota2Heros;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		048A18A71BFC688100D55065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Dota2HerosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-hanuman.Dota2HerosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dota2Heros;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048A186D1BFC688000D55065 /* Build configuration list for PBXProject "Dota2Heros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048A189D1BFC688100D55065 /* Debug */,
+				048A189E1BFC688100D55065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048A189F1BFC688100D55065 /* Build configuration list for PBXNativeTarget "Dota2Heros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048A18A01BFC688100D55065 /* Debug */,
+				048A18A11BFC688100D55065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048A18A21BFC688100D55065 /* Build configuration list for PBXNativeTarget "Dota2HerosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048A18A31BFC688100D55065 /* Debug */,
+				048A18A41BFC688100D55065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048A18A51BFC688100D55065 /* Build configuration list for PBXNativeTarget "Dota2HerosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048A18A61BFC688100D55065 /* Debug */,
+				048A18A71BFC688100D55065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048A186A1BFC688000D55065 /* Project object */;
+}
